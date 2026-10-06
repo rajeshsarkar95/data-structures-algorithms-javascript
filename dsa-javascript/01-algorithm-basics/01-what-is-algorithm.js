@@ -1,2 +1,1 @@
-// 01 What Is Algorithm
-// TODO: Add explanation, solution, time complexity, and space complexity.
+// Algorithm = A clear sequence of steps to get the required output from given input.
