@@ -78,30 +78,33 @@
 
 // // linneerserach
 
-
-function linnerSearch(arr,target){
-    for(let i = 0; i < arr.length;i++){
-        if(arr[i] === target){
-            return i
-        }
-    }
-    return -1
-}
-console.log(linnerSearch([10,20,30,40,50,56],56))
-
 // Complexity 
 // best Case: O(1) => target is first element
 // Worst Case:O(n) => target is last/
 // Averages   O(n)
 // Space      O(1)
-function ChraFrequency(str){
-    let frequency = {};
-    for(let char of str){
-        frequency[char] = (frequency[char] || 0) + 1;
+
+// function ChraFrequency(str){
+//     let frequency = {};
+//     for(let char of str){
+//         frequency[char] = (frequency[char] || 0) + 1;
+//     }
+//     return frequency
+// }
+
+// console.log(ChraFrequency("Rajesh"))
+
+function findMax(arr){
+    let max = arr[0];
+    for(let i = 1; i < arr.length;i++){
+        if(arr[i] > max){
+            max = arr[i]
+        }
     }
-    return frequency
+    return max
 }
-console.log(ChraFrequency("Rajesh"))
+
+console.log(findMax([10, 25, 5, 40, 15]));
 
 
 
