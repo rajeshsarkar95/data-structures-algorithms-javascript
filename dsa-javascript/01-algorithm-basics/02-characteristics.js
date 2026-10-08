@@ -32,22 +32,92 @@
 // step 1
 // let str = "hello word"
 
-let str = "Rajesh"
-for(let i = 0; i < str.length;i++){
-    if(str[i] === 'j'){
-       console.log(str[i])
-       console.log("indexof",i)
-    }
+// let str = "Rajesh"
+// for(let i = 0; i < str.length;i++){
+//     if(str[i] === 'j'){
+//        console.log(str[i])
+//        console.log("indexof",i)
+//     }
+// }
+
+// creting value
+// let arr = [10,25,7,40,18];
+// creting max value for find index value 10
+// let max = arr[0]
+// useing for
+// for(let i = 1; i < arr.length;i++){
+    // if math consition 
+    // if(arr[i] > max){
+        // swape the value
+        // max = arr[i]
+    // }
+// }
+// console.log(max);
+
+// fist creating arr
+
+// let arr = [10,20,30,40,50]
+// let min = arr[0];
+// for(let i = 1;i < arr.length;i++){
+//     if(arr[i] > min){
+//         min = arr[i]
+//     }
+// }
+
+// let str = "Rajesh"
+// // let target = "j"
+// for(let i = 0; i < target.length;i++){
+//     if(str[i] === target){
+//         console.log("Character",str[i])
+//         console.log("Index of",i)
+//     }
+// }
+
+// linner Serach
+// Array:[10,20,30,40,50]
+// Target:30
+
+// let arr = [10,20,30,40,50,60];
+// let target = 30;
+// for(let i = 0; i < arr.length;i++){
+//     if(arr[i] === target){
+//         console.log("Found at index",i);
+//         break;
+//     }
+// }
+
+// first create arr 
+// second put target /
+// third put for useing for loops 
+// inner for loop use if conditions 
+// if math arr[i] === target valaue 
+// if math than printout
+// console.log("") found at index
+// last adding break
+
+// Find Average of Array
+// [10,20,30,40,50]
+// Avrage:30
+// creating arr for useing first 
+
+
+let arr = [10,20,30,40,50]
+let sum = 0;
+for(let i = 0; i < arr.length;i++){
+    sum = sum + arr[i];
+    console.log("total sum",sum)
 }
 
-let arr = [10,25,7,40,18];
-let max = arr[0]
-for(let i = 1; i < arr.length;i++){
-    if(arr[i] > max){
-        max = arr[i]
-    }
-}
-console.log(max);
+150 / 5 
+
+let avrage = sum / arr.length;
+console.log("Avrage",avrage);
+
+
+
+
+
+
 
 
 
