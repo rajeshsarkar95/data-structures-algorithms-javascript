@@ -56,7 +56,7 @@
 
 // fist creating arr
 
-// let arr = [10,20,30,40,50]
+// let arr2 = [10,20,30,40,50]
 // let min = arr[0];
 // for(let i = 1;i < arr.length;i++){
 //     if(arr[i] > min){
@@ -64,7 +64,7 @@
 //     }
 // }
 
-// let str = "Rajesh"
+// let str1 = "Rajesh"
 // // let target = "j"
 // for(let i = 0; i < target.length;i++){
 //     if(str[i] === target){
@@ -77,7 +77,7 @@
 // Array:[10,20,30,40,50]
 // Target:30
 
-// let arr = [10,20,30,40,50,60];
+// let arr1 = [10,20,30,40,50,60];
 // let target = 30;
 // for(let i = 0; i < arr.length;i++){
 //     if(arr[i] === target){
@@ -101,17 +101,37 @@
 // creating arr for useing first 
 
 
-let arr = [10,20,30,40,50]
-let sum = 0;
+// let arr = [10,20,30,40,50]
+// let sum = 0;
+// for(let i = 0; i < arr.length;i++){
+//     sum = sum + arr[i];
+//     console.log("total sum",sum)
+// }
+
+// 150 / 5  = 30
+
+
+
+// let avrage = sum / arr.length;
+// console.log("Avrage",avrage);
+
+// let str =  "Rajesh";
+// let result = ""
+// for(let i = str.length - 1; i >= 0; i--){
+//     result = result + str[i];
+// }
+
+let arr = [10,20,30,40,50,60]
+let count = 0;
 for(let i = 0; i < arr.length;i++){
-    sum = sum + arr[i];
-    console.log("total sum",sum)
+    if(arr[i] % 2 ===0){
+        count++;
+    }
 }
+console.log(count);
 
-150 / 5 
 
-let avrage = sum / arr.length;
-console.log("Avrage",avrage);
+
 
 
 
