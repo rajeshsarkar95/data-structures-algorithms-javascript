@@ -56,25 +56,25 @@ printNumber(5)
 // Step 3: If remainder is 0 → Even
 // Step 4: Otherwise → Odd
 
-let num = 10
-for(let i = 0; i < num.length;i++){
-   if(num[i] % 2 == 0){
-    console.log("Number is even")
-   } else {
-    console.log("Number is odd")
-   }
-}
+// let num = 10
+// for(let i = 0; i < num.length;i++){
+//    if(num[i] % 2 == 0){
+//     console.log("Number is even")
+//    } else {
+//     console.log("Number is odd")
+//    }
+// }
 // find max 
-function max(arr){
-    let max = arr[0]
-    for(let i = 1; i < arr.length;i++){
-      if(num[i] > max){
-         max = arr[i]
-      }
-    }
-    return max;
-}
-console.log(max[5.30,32,43,43])
+// function max(arr){
+//     let max = arr[0]
+//     for(let i = 1; i < arr.length;i++){
+//       if(num[i] > max){
+//          max = arr[i]
+//       }
+//     }
+//     return max;
+// }
+// console.log(max[5.30,32,43,43])
 
 // linneerserach
 
@@ -84,38 +84,48 @@ console.log(max[5.30,32,43,43])
 // Averages   O(n)
 // Space      O(1)
 
-function ChraFrequency(str){
-    let frequency = {};
-    for(let char of str){
-        frequency[char] = (frequency[char] || 0) + 1;
-    }
-    return frequency
-}
+// function ChraFrequency(str){
+//     let frequency = {};
+//     for(let char of str){
+//         frequency[char] = (frequency[char] || 0) + 1;
+//     }
+//     return frequency
+// }
 
-console.log(ChraFrequency("Rajesh"))
+// console.log(ChraFrequency("Rajesh"))
 
-function findMax(arr){
-    let max = arr[0];
-    for(let i = 1; i < arr.length;i++){
-        if(arr[i] > max){
-            max = arr[i]
-        }
-    }
-    return max
-}
+// function findMax(arr){
+//     let max = arr[0];
+//     for(let i = 1; i < arr.length;i++){
+//         if(arr[i] > max){
+//             max = arr[i]
+//         }
+//     }
+//     return max
+// }
 
-console.log(findMax([10, 25, 5, 40, 15]));
+// console.log(findMax([10, 25, 5, 40, 15]));
 
 
-function findAvg(arr){
-    let sum = 0;
-    for(let i = 0; i < arr.length;i++){
-        sum = sum + arr[i]
-    }
-    let avrage = sum / arr.length
-    return avrage;
-}
-console.log(findAvg([10, 20, 30, 40, 50]));
+// function findAvg(arr){
+//     let sum = 0;
+//     for(let i = 0; i < arr.length;i++){
+//         sum = sum + arr[i]
+//     }
+//     let avrage = sum / arr.length
+//     return avrage;
+// }
+// console.log(findAvg([10, 20, 30, 40, 50]));
+
+// const data = "my name is prabhakar i am softwere developer"
+// for(let i = data.length; i <= 0; i++){
+//    console.log(i)
+
+let a = 10
+let b = 12
+let temp = a;
+a = b
+b = temp;
 
 
 

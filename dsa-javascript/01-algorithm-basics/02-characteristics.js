@@ -32,13 +32,13 @@
 // step 1
 // let str = "hello word"
 
-// let str = "Rajesh"
-// for(let i = 0; i < str.length;i++){
-//     if(str[i] === 'j'){
-//        console.log(str[i])
-//        console.log("indexof",i)
-//     }
-// }
+let str = "Rajesh"
+for(let i = 0; i < str.length;i++){
+    if(str[i] === 'j'){
+       console.log(str[i])
+       console.log("indexof",i)
+    }
+}
 
 // creting value
 // let arr = [10,25,7,40,18];
@@ -77,14 +77,14 @@
 // Array:[10,20,30,40,50]
 // Target:30
 
-// let arr1 = [10,20,30,40,50,60];
-// let target = 30;
-// for(let i = 0; i < arr.length;i++){
-//     if(arr[i] === target){
-//         console.log("Found at index",i);
-//         break;
-//     }
-// }
+let arr1 = [10,20,30,40,50,60];
+let target = 30;
+for(let i = 0; i < arr.length;i++){
+    if(arr[i] === target){
+        console.log("Found at index",i);
+        break;
+    }
+}
 
 // first create arr 
 // second put target /
@@ -324,7 +324,10 @@ console.log(prefix);
 
 
 
-
+const data = "my name is prabhakar i am softwere developer"
+for(let i = data.length; i <= 0; i++){
+   console.log(i)
+}
 
 
 
