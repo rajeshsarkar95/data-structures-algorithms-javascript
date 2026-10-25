@@ -59,8 +59,27 @@ let  pop = arrpop.pop();
 console.log(pop);
 
 // unshif for useing add value for bigineing
-let unshift = arr3.unshift([9])
+let unshift = arr3.unshift([9]);
 console.log(unshift);
+
+// shift for useing removed value for beginning
+arr.shift();
+console.log(arr);
+
+// soft elements
+let nums = [30, 10, 50, 20, 40];
+nums.sort((a, b) => a - b);
+console.log(nums);
+// [10,20,30,40,50];
+let result = arr.slice(1,4);
+console.log(result);
+
+
+
+
+
+
+
 
 
 
