@@ -22,7 +22,7 @@ const persons = [
 
 persons.map(getFullName);
 
-function getFullName(item) {
+function getFullName(item){
   return [item.firstname,item.lastname].join("");
 }
 
@@ -56,23 +56,66 @@ console.log(arr);
 // we can use for for removed last element from array
 let arr3 = [1,2,4,5,6,7,8,9,0];
 let  pop = arrpop.pop();
-console.log(pop);
+// console.log(pop);
 
 // unshif for useing add value for bigineing
 let unshift = arr3.unshift([9]);
 console.log(unshift);
-
 // shift for useing removed value for beginning
 arr.shift();
 console.log(arr);
-
 // soft elements
-let nums = [30, 10, 50, 20, 40];
+let nums = [30,10,50,20,40];
 nums.sort((a, b) => a - b);
 console.log(nums);
 // [10,20,30,40,50];
 let result = arr.slice(1,4);
 console.log(result);
+arr.slice(1,2,3,4,5,6,7,8,9,10);
+const myArr1 = [1,2,[3,[4,5,6],7],8];
+// const newArr = myArr.flat(2);
+// let text = JSON.stringify(newArr);
+const myArr5 = [1,2,3,4,5,6,7,8,9,10];
+const newArr2 = myArr.flatMap(x => [x,x * 10]);
+console.log(newArr);
+// flatmap() method maps all element and created a new array.
+// The plat medhod maps all from calling functions for evry array elements 
+// platMap() does not exucutes the function for empty element
+// flatmedhod() medhod maps all array element and a new flat array
+
+const fruits = ["apple","orages","cherry"];
+fruits.forEach((arr)=>{
+   console.log(arr);
+});
+
+//foreach() method calls a functions for each element in an array 
+// The forEach() method is not exucuted for empty elements.
+
+const fruts = ["Banana","Orages","Apple","Mango"];
+const list = fruits.entries();
+let entriesText = "";
+for(let x of list){
+    entriesText += x;
+}
+
+// Map() create a new array calling a functions
+let x = Boolean(false);
+let y = new Boolean(false);
+console.log(x == y); // true
+console.log(x === y); // false
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
