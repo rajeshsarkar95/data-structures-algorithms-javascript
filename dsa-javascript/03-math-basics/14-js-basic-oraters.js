@@ -6,8 +6,8 @@ let combinearr = [...arr1,...arr2]
 // this is for concanitions value
 let arrayconacate = arr1.concat(8)
 // this for filterout all value
-let filteraray = arr1.filter((ar > 2))
-console.log(arraysmethod);
+// let filteraray = arr1.filter((ar > 2))
+// console.log(arraysmethod);
  let obj = {
     name:"Rajesh",
     lastname:"sarkar",
@@ -25,6 +25,19 @@ persons.map(getFullName);
 function getFullName(item) {
   return [item.firstname,item.lastname].join("");
 }
+
+// find we can use for maching elemennts
+// let result = arr1.find((value)=>{
+//     return value > 25;
+// })
+// console.log(result);
+
+let result = arr1.findIndex((value)=>{
+    return value > 25;
+})
+console.log(result);
+
+
 
 
 
