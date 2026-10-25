@@ -46,7 +46,7 @@ let arr = [12,13,14,15,16,17,19,20]
 let includfunctio = arr.includes(19);
 console.log(includfunctio); 
 let arrindedof = arr.indexOf(16);
-console.log(arrindedof(30));
+// console.log(arrindedof(30));
 // 2
 // push() - add at end
 arr.push(60);
@@ -57,6 +57,11 @@ console.log(arr);
 let arr3 = [1,2,4,5,6,7,8,9,0];
 let  pop = arrpop.pop();
 console.log(pop);
+
+// unshif for useing add value for bigineing
+let unshift = arr3.unshift([9])
+console.log(unshift);
+
 
 
 
