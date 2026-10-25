@@ -32,10 +32,18 @@ function getFullName(item) {
 // })
 // console.log(result);
 
-let result = arr1.findIndex((value)=>{
-    return value > 25;
-})
-console.log(result);
+// let result = arr1.findIndex((value)=>{
+//     return value > 25;
+// })
+// console.log(result);
+
+const myArr = [1,2,[3,[4,5,6],7],8];
+const newArr = myArr.flat(2);
+let text = JSON.stringify(newArr);
+console.log(text);
+
+
+
 
 
 
