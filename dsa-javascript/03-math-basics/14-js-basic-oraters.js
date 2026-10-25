@@ -40,7 +40,23 @@ function getFullName(item) {
 const myArr = [1,2,[3,[4,5,6],7],8];
 const newArr = myArr.flat(2);
 let text = JSON.stringify(newArr);
-console.log(text);
+
+let arr = [12,13,14,15,16,17,19,20]
+// included functions
+let includfunctio = arr.includes(19)
+console.log(includfunctio); 
+let arrindedof = arr.indexOf(16);
+console.log(arrindedof(30));
+// 2
+// push() - add at end
+arr.push(60);
+console.log(arr);
+
+
+
+
+
+
 
 
 
