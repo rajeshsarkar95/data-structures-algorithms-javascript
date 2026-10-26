@@ -106,9 +106,16 @@ toString()
 unshift()
 values()
 // with()
-
 // at()
 // Gets an element using an index. Negative indexes work from the end.
+
+
+// 1. at()
+const fruits = ["Apple","Banana","Mango","Orange"];
+console.log(fruits.at(0));   // Apple
+console.log(fruits.at(2));   // Mango
+console.log(fruits.at(-1));  // Orange
+console.log(fruits.at(-2));  // Mango
 
 
 
