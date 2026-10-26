@@ -111,7 +111,7 @@ values()
 
 
 // 1. at()
-const fruits = ["Apple","Banana","Mango","Orange"];
+// const fruits = ["Apple","Banana","Mango","Orange"];
 console.log(fruits.at(0));   // Apple
 console.log(fruits.at(2));   // Mango
 console.log(fruits.at(-1));  // Orange
@@ -124,7 +124,67 @@ const backend = ["Node.js", "Express"];
 const skills = frontend.concat(backend);
 console.log(skills);
 
+// 3. copyWithin();
+// const numbers = [1, 2, 3, 4, 5];
+numbers.copyWithin(0, 3);
+console.log(numbers);
 
+// 4. entries()
+
+const fruits = ["Apple", "Banana", "Mango"];
+for (const [index, fruit] of fruits.entries()){
+    console.log(index,fruit);
+}
+
+// 0 Apple
+// 1 Banana
+// 2 Mango
+
+// 5. every()
+const marks = [80, 75, 90, 85];
+// const result = marks.every(mark => mark >= 40);
+console.log(result);  // true
+
+// 6. fill()
+
+// Fills elements with a value.
+// const numbers = [1, 2, 3, 4, 5];
+numbers.fill(0);
+console.log(numbers);
+
+// filter()
+// Creates a new array containing elements that pass a condition.
+
+// const users = [
+//     { name: "Raj", age: 21 },
+//     { name: "Amit", age: 17 },
+//     { name: "Rahul", age: 25 }
+// ];
+const adults = users.filter(user => user.age >= 18);
+console.log(adults);
+
+// 9. findIndex()
+// Returns the index of the first matching element.
+// 10. findLast()
+
+const numbers = [10, 20, 30, 20, 40];
+const result = numbers.findLast(num => num === 20);
+console.log(result); // 20
+
+// Useful with objects:
+const users = [
+    { name: "Raj", active: true },
+    { name: "Amit", active: false },
+    { name: "Rahul", active: true }
+];
+console.log(users.findLast(user => user.active));
+
+// 11. findLastIndex()
+const numbers = [10, 20, 30, 20, 40];
+
+const index = numbers.findLastIndex(num => num === 20);
+
+console.log(index); // 3
 
 
 
