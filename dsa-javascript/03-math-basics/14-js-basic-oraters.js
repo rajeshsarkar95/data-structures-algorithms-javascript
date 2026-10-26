@@ -139,11 +139,54 @@
 // console.log(arr5.flat());
 // [1,2,3,4,5,6,7,8,9]
 
+// let arr = [10,20,30,40,50,60,70];
+// for(let value of arr){
+//     console.log(value);
+// }
 
-let arr = [10,20,30,40,50,60,70];
-for(let value of arr){
-    console.log(value);
-}
+// Map()
+// creating new araay changing every element
+
+// let arr = [1,2,3,4,5];
+// let result = arr.map((value)=>{
+//     return value * 2;
+// })
+// console.log(result);
+
+// filter()
+// Creting a new array containing element that satisfy a contition
+
+// let arr = [2,4,6,8,10,12,16]
+// let filterout = arr.filter((fill)=>{
+//     if(fill > 10){
+//         console.log(filterout);
+//     }
+// });
+
+// find()
+
+// Return the elements that matched the condition
+// let arr = [10,20,30,40];
+// let result = arr.find((value)=>{
+//     return  value > 20;
+// })
+// console.log(result);
+let arr = [1,2,3,4]
+let result = arr.reduceRight((acc,value)=>{
+    return acc + value;
+},0)
+console.log(result);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
