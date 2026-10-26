@@ -117,6 +117,12 @@ console.log(fruits.at(2));   // Mango
 console.log(fruits.at(-1));  // Orange
 console.log(fruits.at(-2));  // Mango
 
+// Practical: Get the last item.
+// 2. concat()
+const frontend = ["HTML", "CSS", "JavaScript"];
+const backend = ["Node.js", "Express"];
+const skills = frontend.concat(backend);
+console.log(skills);
 
 
 
