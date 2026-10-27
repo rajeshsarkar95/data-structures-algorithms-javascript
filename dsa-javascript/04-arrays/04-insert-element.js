@@ -22,7 +22,7 @@ console.log(arr);
 // [10, 20, 30, 40, 50]
 // 4. Spread operator ... — Insert without modifying original
 // let arr = [20, 30];
-let newArr = [10, ...arr];
+let newArr = [10,...arr];
 console.log(newArr);
 // [10, 20, 30]
 
@@ -34,6 +34,14 @@ let newarr  = [
 ];
 console.log(newArr);
 []
+
+// 7. toSpliced() — Modern non-mutating insertion
+let arr = [10, 20, 40, 50];
+let newArr = arr.toSpliced(2,0,30);
+console.log(newArr);
+// [10, 20, 30, 40, 50]
+console.log(arr);
+// [10, 20, 40, 50]
 
 
 
