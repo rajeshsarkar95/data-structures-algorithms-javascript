@@ -26,7 +26,8 @@ let newArr = [10,...arr];
 console.log(newArr);
 // [10, 20, 30]
 
-let arr = [10,20,30,40,50,60]
+// let arr = [10,20,30,40,50,60]
+
 let newarr  = [
     ...arr.slice(0,2),
     30,
@@ -36,14 +37,32 @@ console.log(newArr);
 []
 
 // 7. toSpliced() — Modern non-mutating insertion
-let arr = [10, 20, 40, 50];
-let newArr = arr.toSpliced(2,0,30);
-console.log(newArr);
+// let arr = [10, 20, 40, 50];
+// let newArr = arr.toSpliced(2,0,30);
+// console.log(newArr);
 // [10, 20, 30, 40, 50]
-console.log(arr);
+// console.log(arr);
+// [10, 20, 40, 50]
+// 7. toSpliced() — Modern non-mutating insertion
+// let arr = [10,20,40,50];
+// let newArr = arr.toSpliced(2,0,30);
+// console.log(newArr);
+// [10, 20, 30, 40, 50]
+// console.log(arr);
 // [10, 20, 40, 50]
 
-
+// End
+arr.push(40);
+// Beginning
+arr.unshift(5);
+// Specific position
+arr.splice(2,0,30);
+// New array - end
+let newArr = [...arr,40];
+// New array - beginning
+let newArr = [5,...arr];
+// New array - specific position
+let newArr = arr.toSpliced(2,0,30);
 
 
 
