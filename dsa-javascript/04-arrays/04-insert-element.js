@@ -22,7 +22,7 @@ console.log(arr);
 // [10, 20, 30, 40, 50]
 // 4. Spread operator ... — Insert without modifying original
 // let arr = [20, 30];
-let newArr = [10,...arr];
+let newArr1 = [10,...arr];
 console.log(newArr);
 // [10, 20, 30]
 
@@ -50,19 +50,19 @@ console.log(newArr);
 // [10, 20, 30, 40, 50]
 // console.log(arr);
 // [10, 20, 40, 50]
-
 // End
+
 arr.push(40);
 // Beginning
 arr.unshift(5);
 // Specific position
 arr.splice(2,0,30);
 // New array - end
-let newArr = [...arr,40];
+let newArr2 = [...arr,40];
 // New array - beginning
-let newArr = [5,...arr];
+let newArr3 = [5,...arr];
 // New array - specific position
-let newArr = arr.toSpliced(2,0,30);
+let newArr4 = arr.toSpliced(2,0,30);
 
 
 
