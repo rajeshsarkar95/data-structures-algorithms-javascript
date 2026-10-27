@@ -15,5 +15,6 @@ arr.slice(indexe,count);
 arr.splice(indexe,count);
 // Delete by condition
 arr = arr.filter(item => condition);
-
+// Modern non-mutating delete
+let newArr = arr.toSpliced(index, count);
 
