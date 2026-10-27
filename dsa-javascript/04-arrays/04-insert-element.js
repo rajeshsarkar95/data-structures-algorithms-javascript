@@ -21,10 +21,19 @@ arr.splice(2, 0, 30, 40);
 console.log(arr);
 // [10, 20, 30, 40, 50]
 // 4. Spread operator ... — Insert without modifying original
-let arr = [20, 30];
+// let arr = [20, 30];
 let newArr = [10, ...arr];
 console.log(newArr);
 // [10, 20, 30]
+
+let arr = [10,20,30,40,50,60]
+let newarr  = [
+    ...arr.slice(0,2),
+    30,
+    ...arr.slice(2)
+];
+console.log(newArr);
+[]
 
 
 
