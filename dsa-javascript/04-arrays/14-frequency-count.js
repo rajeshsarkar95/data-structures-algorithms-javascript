@@ -9,7 +9,7 @@ for(let nums of arr){
 }
 console.log(freequncy)
 
-let str = "rajeshsarkarss";
+// let str = "rajeshsarkarss";
 let freequency = {}
 for(let stri of str){
     if(freequency[stri]){
@@ -19,3 +19,13 @@ for(let stri of str){
     }
 }
 console.log(freequency)
+
+let str = "bananas";
+let freequncy1 = {}
+for(let char of str){
+    freequency[char] = (freequency[char] || 0) + 1; 
+}
+console.log()
+
+
+
