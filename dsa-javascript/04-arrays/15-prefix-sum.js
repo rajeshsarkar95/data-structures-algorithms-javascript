@@ -10,7 +10,6 @@ for(let i = 0; i < arr.length;i++){
     sum = sum + arr[i]
     prefix.push(sum)
 }
-
 console.log(prefix);
 
 
