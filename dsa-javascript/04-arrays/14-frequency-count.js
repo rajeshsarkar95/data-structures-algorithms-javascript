@@ -1,21 +1,21 @@
-// 14 Frequency Count
-// TODO: Add explanation, solution, time complexity, and space complexity.
-let arr = [10,20,30,40,50,60,70,,70,50,30];
-let frequency1 = {}
-
-for(let num of arr){
-    if(frequency1[num]){
-        frequency1[num]++;
+let arr = [10,20,20,20,30,30]
+let freequncy = {}
+for(let nums of arr){
+    if(freequncy[nums]){
+        freequncy[nums]++;
     } else {
-        frequency1[num] = 1;
+        freequncy[nums] = 1
     }
 }
-console.log(frequency1);
+console.log(freequncy)
 
-
-let str = "banana";
-let frequency2 = {}
-for(let char of str){
-    frequency1[char] = (frequency1[char] || 0) + 1;
+let str = "rajeshsarkarss";
+let freequency = {}
+for(let stri of str){
+    if(freequency[stri]){
+        freequency[str]++;
+    } else {
+        freequency[stri] = 1
+    }
 }
-console.log(frequency1)
+console.log(freequency)
