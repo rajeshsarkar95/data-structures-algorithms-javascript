@@ -22,7 +22,8 @@
 let map = new Map();
 map.set("name","Rajesh");
 map.set("age",21);
-console.log([...map.keys()]);
+console.log([...map.get()]);
+
 
 
 
