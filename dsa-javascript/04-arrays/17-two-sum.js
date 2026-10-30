@@ -44,9 +44,15 @@ map.set("language","Hindi");
 console.log([...map.get("address")]);
 console.log([...map.get("age")]);
 console.log([...map.get("language")]);
-
-
-
+// set()   set values
+// get()    get values
+// has()    check values true or false
+// delete   Delete value
+// size()   check  size of the value
+// keys()   Get all keys
+// values() Get all values
+// Entries() Get key + value
+// foreach() Loops through Map
 
 
 
