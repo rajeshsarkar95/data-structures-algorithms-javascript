@@ -19,10 +19,39 @@
 // console.log(map.has(2)); // true
 // console.log(map.has(5)); // fa
 
+// let map = new Map();
+// map.set("name","Rajesh");
+// map.set("age",21);
+// console.log([...map.get("name")]);
+// console.log([...map.delete]);
+
+// set() Add/Delete
+// get() Get value
+// has() Check key exists
+// delete() Removed one
+// clear() removed evrything
+// size()  count items
+// keys()  Get all keys
+// values() Get all value
+// entiries()   Get key + value
+// foreach     Loop throgth Map
+
 let map = new Map();
 map.set("name","Rajesh");
-map.set("age",21);
-console.log([...map.get("name")]);
+map.set("age",22);
+map.set("address","Neoriya husainpur");
+map.set("language","Hindi");
+console.log([...map.get("address")]);
+console.log([...map.get("age")]);
+console.log([...map.get("language")]);
+
+
+
+
+
+
+
+
 
 
 
