@@ -13,9 +13,21 @@ for (let i = 65; i <= 90; i++){
 let reduces = result.reduce((a, b)=>{
     return a + b;
 },"");
-console.log(reduces);
+
 let arr = ["A", "E", "I", "O", "U"];
 let result = arr.reduce((a, b)=>{
     return a + b;
-}, "");
+},"");
 console.log(result);
+
+
+
+for(let i = 65; i <= 90;i++){
+    let char = String.fromCharCode(i);
+    let filter = char.includes((vowels)=>{
+        if(vowels === "A" || "E" || "I" || "U"){
+            console.log(filter)
+        }
+    })
+}
+
