@@ -30,25 +30,17 @@
 //     });
 // }
 
-// let str = "JavaScript";
-// let vowels = "aeiouAEIOU";
-// let count = 0;
-// for(let i = 0; i < str.length;i++){
-//     if(vowels.includes(str[i])){
-//         count++;
-//     }
-// }
-// console.log(count);
-
-let str = "javascript";
+let str = "JavaScript";
 let vowels = "aeiouAEIOU";
 let count = 0;
-for(let char of str){
-    if(vowels.includes(char)){
-        count++
+for(let i = 0; i < str.length;i++){
+    if(vowels.includes(str[i])){
+        count++;
     }
 }
 console.log(count);
+
+
 
 
 
