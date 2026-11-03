@@ -24,6 +24,15 @@ function reverseString(str){
 }
 console.log(reverseString("hello"));
 
+// primitive data types in javascript
+// string
+// number
+// bigint
+// boolean
+// undefined
+// null
+// symbol
+
 
 
 
