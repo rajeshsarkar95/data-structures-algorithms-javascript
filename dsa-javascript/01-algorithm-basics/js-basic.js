@@ -15,6 +15,10 @@
 // undefined
 // NaN
 
+
+
+
+
 function reverseString(str){
     let result = "";
     for(let i = str.length - 1; i >= 0; i--){
@@ -24,6 +28,13 @@ function reverseString(str){
 }
 console.log(reverseString("hello"));
 
+
+
+
+
+
+
+
 // primitive data types in javascript
 // string
 // number
@@ -32,6 +43,7 @@ console.log(reverseString("hello"));
 // undefined
 // null
 // symbol
+
 
 
 
