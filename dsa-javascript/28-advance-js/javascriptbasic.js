@@ -10,3 +10,10 @@ console.log("Hello, World!");
 // 4 Compilar - Optimize frequently excutions code 
 // Heap - Store dynamic allocation objects
 // Garbase collecter - Clean unused memory
+const a = 10;
+const b = 20;
+function add(x,y){
+    return x+y;
+}
+console.log(add(a,b));
+
