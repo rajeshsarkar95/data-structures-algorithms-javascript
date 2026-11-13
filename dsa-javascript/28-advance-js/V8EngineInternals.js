@@ -77,17 +77,39 @@ useEffect(() => {
   };
 }, []);
 
+var name = "Rajesh";
+var name = "Rajesh";
+function greet(){
+    var message = "Hello";
+    console.log(message);
+}
+greet();
 
-import {useLayoutEffect,useRef} from "react";
+// javascript created global execution context and function execution context
+// its allowcate memory for variables and functions
+// it execute the code line by line and it also create a scope chain for variable and function access
+// When greet() is called, a Function Execution Context is created.
+// The Function Execution Context has its own Variable Environment,Which
 
-function App(){
-  const boxRef = useRef(null);
-  useLayoutEffect(()=>{
-    const height =
-      boxRef.current.getBoundingClientRect().height;
-    console.log(height);
-  },[]);
-  return <div ref={boxRef}>Hello React</div>;
+// Every execution context has two important phases:
+
+// Memory Creation Phase: In this phase, memory is allocated for variables and functions. Variables are initialized with undefined, and functions are stored in memory.
+
+// Execution Phase: In this phase, the code is executed line by line. Variables are assigned their actual values, and functions are invoked.
+
+// 2. What is the Call Stack?
+// The javascript Call stack is a machanism that keeps track of the function calls in a program. 
+
+function first() {
+  console.log("First function");
+  second();
+} 
+function second() {
+  console.log("Second function");
+  third();
+}
+function third() {
+  console.log("Third function");
 }
 
 
