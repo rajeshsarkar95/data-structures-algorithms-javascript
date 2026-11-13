@@ -7,6 +7,7 @@
 // Innition        Bytecode compiler 
 // javascript Compilation Pileline 
 // Definition: The Comapilation pipeline is the process of converting javascript code into machine cpde excution insructions
+
 const user1 = {
   name: "Rajesh",
   age: 21
@@ -21,6 +22,21 @@ const usser1 = {}
 usser1.name = "Rajesh";
 usser1.age = 21;
 console.log(usser1);
+
+// Inline Caching (IC)
+// Definition: Inline Caching is an optimization technique in V8 that remembers information about property access or operations at a particular code location.
+
+function getName(user) {
+  return user.name;
+}
+
+const user3 = {name:"Rajesh"};
+const user4 = {name:"Amit"};
+
+getName(user3);
+getName(user4);
+
+
 
 
 
