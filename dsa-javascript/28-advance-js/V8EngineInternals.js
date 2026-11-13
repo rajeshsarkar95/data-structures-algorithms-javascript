@@ -100,15 +100,15 @@ greet();
 // 2. What is the Call Stack?
 // The javascript Call stack is a machanism that keeps track of the function calls in a program. 
 
-function first() {
+function first(){
   console.log("First function");
   second();
 } 
-function second() {
+function second(){
   console.log("Second function");
   third();
 }
-function third() {
+function third(){
   console.log("Third function");
 }
 
