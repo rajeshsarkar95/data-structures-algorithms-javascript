@@ -26,7 +26,7 @@ console.log(usser1);
 // Inline Caching (IC)
 // Definition: Inline Caching is an optimization technique in V8 that remembers information about property access or operations at a particular code location.
 
-function getName(user) {
+function getName(user){
   return user.name;
 }
 
