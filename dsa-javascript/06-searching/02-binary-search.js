@@ -19,3 +19,4 @@ const arr = [10,20,30,40,50];
 const target = 30;
 const result = binarySearch(arr,target);
 console.log(result);
+
