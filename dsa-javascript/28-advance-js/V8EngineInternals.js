@@ -82,11 +82,11 @@ import {useLayoutEffect,useRef } from "react";
 
 function App(){
   const boxRef = useRef(null);
-  useLayoutEffect(() =>{
+  useLayoutEffect(()=>{
     const height =
       boxRef.current.getBoundingClientRect().height;
     console.log(height);
-  }, []);
+  },[]);
 
   return <div ref={boxRef}>Hello React</div>;
 }
