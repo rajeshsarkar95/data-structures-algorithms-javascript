@@ -29,21 +29,45 @@ console.log(usser1);
 function getName(user){
   return user.name;
 }
-
 const user3 = {name:"Rajesh"};
 const user4 = {name:"Amit"};
-
 getName(user3);
 getName(user4);
 
 function add(a,b) {
   return a + b;
 }
-
 add(10, 20);
 add(30, 40);
 add(50, 60);
 add("Hello", " JavaScript");
+
+// After every committed render
+useEffect(() => {
+  console.log("Rendered");
+});
+
+// Only when component mounts
+useEffect(() => {
+  console.log("Mounted");
+}, []);
+
+// When count changes
+useEffect(() => {
+  console.log("Count changed");
+}, [count]);
+
+useEffect(() => {
+  const timer = setInterval(() => {
+    console.log("Running");
+  }, 1000);
+
+  return () => {
+    clearInterval(timer);
+  };
+}, []);
+
+
 
 
 
