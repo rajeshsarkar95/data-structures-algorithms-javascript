@@ -5,4 +5,5 @@
 // Phaser          Parses javascript
 // ATS             Create syntex tree
 // Innition        Bytecode compiler 
-// Mag
+// javascript Compilation Pileline 
+// Definition: The Comapilation pipeline is the process of converting javascript code into machine cpde excution insructions
