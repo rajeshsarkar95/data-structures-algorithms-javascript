@@ -43,19 +43,29 @@ add(50, 60);
 add("Hello", " JavaScript");
 
 // After every committed render
-useEffect(() => {
-  console.log("Rendered");
-});
+// useEffect(() => {
+//   console.log("Rendered");
+// });
 
 // Only when component mounts
-useEffect(() => {
-  console.log("Mounted");
-}, []);
+// useEffect(() => {
+//   console.log("Mounted");
+// }, []);
 
 // When count changes
-useEffect(() => {
-  console.log("Count changed");
-}, [count]);
+// useEffect(() => {
+//   console.log("Count changed");
+// }, [count]);
+
+// useEffect(() => {
+//   const timer = setInterval(() => {
+//     console.log("Running");
+//   }, 1000);
+
+//   return () => {
+//     clearInterval(timer);
+//   };
+// }, []);
 
 useEffect(() => {
   const timer = setInterval(() => {
@@ -66,6 +76,21 @@ useEffect(() => {
     clearInterval(timer);
   };
 }, []);
+
+
+import { useLayoutEffect, useRef } from "react";
+
+function App() {
+  const boxRef = useRef(null);
+  useLayoutEffect(() => {
+    const height =
+      boxRef.current.getBoundingClientRect().height;
+
+    console.log(height);
+  }, []);
+
+  return <div ref={boxRef}>Hello React</div>;
+}
 
 
 
