@@ -36,6 +36,14 @@ const user4 = {name:"Amit"};
 getName(user3);
 getName(user4);
 
+function add(a,b) {
+  return a + b;
+}
+
+add(10, 20);
+add(30, 40);
+add(50, 60);
+add("Hello", " JavaScript");
 
 
 
