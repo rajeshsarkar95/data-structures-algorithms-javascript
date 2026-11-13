@@ -103,7 +103,7 @@ greet();
 function first(){
   console.log("First function");
   second();
-} 
+}
 function second(){
   console.log("Second function");
   third();
@@ -111,7 +111,6 @@ function second(){
 function third(){
   console.log("Third function");
 }
-
 
 
 
