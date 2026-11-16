@@ -5,7 +5,6 @@ const map = new Map();
 // created emty map functions
 for(const num of arr){
 // for for looping all element and make sure that all element working currently
-
     map.set(num,(map.get(num) || 0) + 1);
 // Map(0) {}
     // this most impotant line
@@ -16,9 +15,7 @@ for(const num of arr){
     // || 0 | if the numbers doesnt't exits,use 0 
     // 
     // lest't break
-
 }
-
 console.log(map);
 
 
