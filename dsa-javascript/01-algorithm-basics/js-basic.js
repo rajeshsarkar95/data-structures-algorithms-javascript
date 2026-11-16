@@ -75,6 +75,26 @@ map5.get("address","mohali");
 map5.clear();
 console.log(map5.size());
 
+// 5. Map allows different types of keys
+// This is one of the biggest diffrent between Map and Object
+
+// const map6 = new Map();
+const map6 = new Map();
+
+map6.set("name", "Rajesh"); // String key
+map6.set(101, "Student");   // Number key
+map6.set(true, "Active");   // Boolean key
+
+const obj = { id: 1 };
+
+map.set(obj, "Developer"); // Object key
+
+console.log(map6.get("name"));
+console.log(map6.get(101));
+console.log(map6.get(true));
+console.log(map6.get(obj));
+
+
 
 
 
