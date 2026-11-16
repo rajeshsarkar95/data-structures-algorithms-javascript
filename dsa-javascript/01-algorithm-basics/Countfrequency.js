@@ -5,7 +5,7 @@ const map = new Map();
 for(const num of arr){
 
     map.set(num,(map.get(num) || 0) + 1);
-
+    
 }
 
 console.log(map);
