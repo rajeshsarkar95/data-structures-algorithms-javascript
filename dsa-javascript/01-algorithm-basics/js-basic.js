@@ -130,6 +130,25 @@ map.forEach((value,key) => {
     console.log(key,value);
 });
 
+const users2 = new Map();
+users2.set(101, {
+    name: "Rajesh",
+    role: "Developer"
+});
+
+users2.set(102, {
+    name: "Amit",
+    role: "Admin"
+});
+console.log(users2.get(101));
+console.log(users2.has(102));
+users2.delete(102);
+console.log(users2.size); 
+
+
+
+
+
 
 
 
