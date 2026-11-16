@@ -65,7 +65,19 @@ map4.set("name","Rajesh sarkar");
 map4.set("age",21);
 map4.set("developer",true);
 map4.set("city","mohali")
-console.log(map4.size);
+console.log(map4.size);   // 4
+
+// F. clear() – Remove everything
+const map5 = new Map();
+map5.set("name","Rajesh");
+map5.set("age","21");
+map5.get("address","mohali");
+map5.clear();
+console.log(map5.size());
+
+
+
+
 
 
 
