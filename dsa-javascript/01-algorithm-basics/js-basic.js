@@ -117,6 +117,20 @@ map.set("city", "Mohali");
 for(const key of map.keys()){
     console.log(key);
 }
+// extract value
+for(const value of map.values()){
+    console.log(value);
+}
+// using entire method
+for(const entire of map.entries()){
+    console.log(entire)
+}
+
+map.forEach((value, key) => {
+    console.log(key, value);
+});
+
+
 
 
 
