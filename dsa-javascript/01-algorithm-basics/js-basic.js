@@ -103,16 +103,20 @@
 
 // Using to iterate over a Map
 // Using for of...
+
+
 const map = new Map();
 
 map.set("name", "Rajesh");
 map.set("age", 21);
 map.set("city", "Mohali");
 
-for (const [key, value] of map) {
-    console.log(key, value);
+// for (const [key, value] of map) {
+//     console.log(key, value);
+// }
+for(const key of map.keys()){
+    console.log(key);
 }
-
 
 
 
