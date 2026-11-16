@@ -24,11 +24,11 @@
 // }
 // console.log(reverseString("hello"));
 
-const myMap = new Map();
-myMap.set("name","Rajesh");
-myMap.set("age",21);
-myMap.set("role","full stack developer");
-console.log(myMap);
+// const myMap = new Map();
+// myMap.set("name","Rajesh");
+// myMap.set("age",21);
+// myMap.set("role","full stack developer");
+// console.log(myMap);
 
 // import Map method 
 // Method                Purpose
@@ -44,61 +44,80 @@ console.log(myMap);
 // forEach()             Iterates over Map entries
 
 // get() – Access data
-const map = new Map();
-map.set("name","Rajesh");
-map.set("age",21);
-console.log(map.get("name"));   // Rajesh Sarkar
-console.log(map.get("age"));    // 21
+// const map = new Map();
+// map.set("name","Rajesh");
+// map.set("age",21);
+// console.log(map.get("name"));   // Rajesh Sarkar
+// console.log(map.get("age"));    // 21
 
 // has() check weather key exiest or not 
-const map1 = new Map()
-map.set("name","Rajesh");
-console.log(map.has("name"));   // 
-console.log(map.has("age"));
+// const map1 = new Map()
+// map.set("name","Rajesh");
+// console.log(map.has("name"));   // 
+// console.log(map.has("age"));
 
-const map3 = new Map();
-map3.set("name","abhisek");
-map3.set("age",19);
+// const map3 = new Map();
+// map3.set("name","abhisek");
+// map3.set("age",19);
 
-const map4 = new Map();
-map4.set("name","Rajesh sarkar");
-map4.set("age",21);
-map4.set("developer",true);
-map4.set("city","mohali")
-console.log(map4.size);   // 4
+// const map4 = new Map();
+// map4.set("name","Rajesh sarkar");
+// map4.set("age",21);
+// map4.set("developer",true);
+// map4.set("city","mohali")
+// console.log(map4.size);   // 4
 
-// F. clear() – Remove everything
-const map5 = new Map();
-map5.set("name","Rajesh");
-map5.set("age","21");
-map5.get("address","mohali");
-map5.clear();
-console.log(map5.size());
+// // F. clear() – Remove everything
+// const map5 = new Map();
+// map5.set("name","Rajesh");
+// map5.set("age","21");
+// map5.get("address","mohali");
+// map5.clear();
+// console.log(map5.size());
 
 // 5. Map allows different types of keys
 // This is one of the biggest diffrent between Map and Object
 
 // const map6 = new Map();
-const map6 = new Map();
+// const map6 = new Map();
 
-map6.set("name", "Rajesh"); // String key
-map6.set(101, "Student");   // Number key
-map6.set(true, "Active");   // Boolean key
+// map6.set("name", "Rajesh"); // String key
+// map6.set(101, "Student");   // Number key
+// map6.set(true, "Active");   // Boolean key
 
-const obj = { id: 1 };
+// const obj = { id: 1 };
 
-map.set(obj, "Developer"); // Object key
+// map.set(obj, "Developer"); // Object key
 
-console.log(map6.get("name"));
-console.log(map6.get(101));
-console.log(map6.get(true));
-console.log(map6.get(obj));
-
+// console.log(map6.get("name"));
+// console.log(map6.get(101));
+// console.log(map6.get(true));
+// console.log(map6.get(obj));
 
 // Rajesh
 // Student
 // Active
 // Developer
+
+// 6. How to iterate over a Map
+
+// Using to iterate over a Map
+// Using for of...
+const map = new Map();
+
+map.set("name", "Rajesh");
+map.set("age", 21);
+map.set("city", "Mohali");
+
+for (const [key, value] of map) {
+    console.log(key, value);
+}
+
+
+
+
+
+
 
 
 
