@@ -60,6 +60,18 @@ const map3 = new Map();
 map3.set("name","abhisek");
 map3.set("age",19);
 
+const map4 = new Map();
+map4.set("name","Rajesh sarkar");
+map4.set("age",21);
+map4.set("developer",true);
+map4.set("city","mohali")
+console.log(map4.size);
+
+
+
+
+
+
 
 
 
