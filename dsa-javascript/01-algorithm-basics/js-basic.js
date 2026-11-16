@@ -30,6 +30,29 @@ myMap.set("age",21);
 myMap.set("role","full stack developer");
 console.log(myMap);
 
+// import Map method 
+// Method                Purpose
+// set(key,value)        Add and updates entry
+// get(key)              Return the value of key
+// has(key)              Checks whether a key exists
+// delete(key)           Removed a specific key
+// clear()               Removees all entries
+// size                  Return the total number of entries
+// keys()                Return the numbers of entries
+// values()              Return all keys
+// entries()             Returns key-value pairs
+// forEach()             Iterates over Map entries
+
+// get() – Access data
+const map = new Map();
+map.set("name","Rajesh");
+map.set("age",21);
+console.log(map.get("name"));   // Rajesh Sarkar
+console.log(map.get("age"));    // 21
+
+
+
+
 
 
 
