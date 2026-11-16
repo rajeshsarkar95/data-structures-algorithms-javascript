@@ -95,6 +95,11 @@ console.log(map6.get(true));
 console.log(map6.get(obj));
 
 
+// Rajesh
+// Student
+// Active
+// Developer
+
 
 
 
