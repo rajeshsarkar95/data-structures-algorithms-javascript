@@ -125,10 +125,14 @@ for(const value of map.values()){
 for(const entire of map.entries()){
     console.log(entire)
 }
-
-map.forEach((value, key) => {
-    console.log(key, value);
+// Using forEach()
+map.forEach((value,key) => {
+    console.log(key,value);
 });
+
+
+
+
 
 
 
