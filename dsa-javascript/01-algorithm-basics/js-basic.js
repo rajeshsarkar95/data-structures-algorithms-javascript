@@ -50,6 +50,17 @@ map.set("age",21);
 console.log(map.get("name"));   // Rajesh Sarkar
 console.log(map.get("age"));    // 21
 
+// has() check weather key exiest or not 
+const map1 = new Map()
+map.set("name","Rajesh");
+console.log(map.has("name"));
+console.log(map.has("age"));
+
+
+
+
+
+
 
 
 
