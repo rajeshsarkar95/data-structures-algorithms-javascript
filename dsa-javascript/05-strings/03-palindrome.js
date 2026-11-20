@@ -9,6 +9,7 @@ for(let i = 0; i < str.length / 2;i++){
         break;
     }
 }
+
 if(palindrome){
     console.log("Palindrome");
 } else {
