@@ -21,24 +21,15 @@ console.log(map);
 
 
 function twoSum(nums,target){
-
     const map = new Map();
-
     for(let i = 0; i < nums.length;i++){
-
         const compleatet = target - nums[i];
-
         if(map.has(compleatet)){
-
             return [map.get(compleatet),i];
-
         }
         map.set(nums[i],i);
-
     }
-
     return [];
-
 }
 
 console.log([2,7,11,15],9);
