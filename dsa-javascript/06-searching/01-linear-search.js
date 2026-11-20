@@ -6,10 +6,10 @@
 // Time Complexity: O(n) where n is the number of elements in the array.
 // Space Complexity: O(1) as it uses a constant amount of extra space.
 
-
 function linearSearch(arr,target){
     for (let i = 0; i < arr.length;i++){
         if (arr[i] === target){
+            console.log(arr[i]);
             return i;
         }
     }
